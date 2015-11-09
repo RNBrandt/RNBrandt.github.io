@@ -1,0 +1,40 @@
+header{
+  background-image:url("../imgs/Reuben-Laying.jpg");
+  height: 50em;
+  background-position: -25em;
+  text-align:center;
+  max-height: 35em;
+}
+h1{
+  font-family: Times, "Times New Roman", Georgia, serif;
+  color: white;
+  font-size: 3em;
+  position: absolute;
+  text-align: center;
+  margin-top: 5em;
+  margin-left: 10em;
+}
+.button{
+height: 1em;
+width:2em;
+}
+aside{
+  text-align: center
+}
+.link{
+  text-align: center;
+  color: white;
+  position: relative;
+  text-decoration: none;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+ul{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
