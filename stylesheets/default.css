@@ -4,6 +4,7 @@ header{
   background-position: -25em;
   text-align:center;
   max-height: 35em;
+  border-radius: 50px;
 }
 h1{
   font-family: Times, "Times New Roman", Georgia, serif;
