@@ -5,27 +5,129 @@
     <description></description>
     <link>http://bencentra.github.io/RNBrandt/</link>
     <atom:link href="http://bencentra.github.io/RNBrandt/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Dec 2015 10:45:22 -0800</pubDate>
-    <lastBuildDate>Thu, 17 Dec 2015 10:45:22 -0800</lastBuildDate>
+    <pubDate>Thu, 17 Dec 2015 21:11:39 -0800</pubDate>
+    <lastBuildDate>Thu, 17 Dec 2015 21:11:39 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>I&#39;ve Made a Change to the Post</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
+        <title>JavaStick</title>
+        <description>&lt;p&gt;A friend of mine once described the difference between JavaScript and Ruby as the difference between driving a stick-shift car and an automatic, and nowhere is that more clear than in looping.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;In Ruby, in order to loop you simply have to choose the method through with you want to loop (eg. Each, for, while, etc …), connect it with your object, and that’s really it. So looping though a simple array in Ruby would look something like this:&lt;/p&gt;
+
+&lt;p&gt;array = (1,2,3,4,5)&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;array.each {&lt;/td&gt;
+      &lt;td&gt;variable&lt;/td&gt;
+      &lt;td&gt;variable +=1}&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;JavaScript on the other hand forces you to break it apart.&lt;/p&gt;
+
+&lt;p&gt;There isn’t a simple ‘each’ function in JavaScript. Instead, if you want to loop through each value in an array, you need to think about that as a separate problem to work through.&lt;/p&gt;
+
+&lt;p&gt;You know JavaScript keeps track of an index, good. You can call objects by their index, good. You can assign variables numerical values, and can change those values based on certain circumstances, good. JavaScript will stop the loop when certain circumstances are met, good.&lt;/p&gt;
+
+&lt;p&gt;Based on that you know you can create a variable which represents the number of values in the array (an index variable), and will move from one value to the next, using the index variable. If you set a termination condition (eg. When the index variable is equal to the number of elements), the loop will reach that condition and stop, and you will have iterated over each element in your array. Using the same array as above, that would look something like this:&lt;/p&gt;
+
+&lt;p&gt;array = (1,2,3,4,5)&lt;/p&gt;
+
+&lt;p&gt;for (i = 0; i &amp;lt; array.length; i++){ array[i] += 1;}&lt;/p&gt;
+
+&lt;p&gt;So the i variable is what’s keeping track of where the program is in the loop, and as long as i &amp;lt; array.length, the loop will continue. A bit more stick-shifty than Ruby, eh…&lt;/p&gt;
 </description>
-        <pubDate>Wed, 16 Dec 2015 12:06:59 -0800</pubDate>
-        <link>http://bencentra.github.io/RNBrandt/dummy/2015/12/16/dummy.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/RNBrandt/dummy/2015/12/16/dummy.html</guid>
+        <pubDate>Tue, 15 Dec 2015 00:43:59 -0800</pubDate>
+        <link>http://bencentra.github.io/RNBrandt/java/dbc/2015/12/15/Java.html</link>
+        <guid isPermaLink="true">http://bencentra.github.io/RNBrandt/java/dbc/2015/12/15/Java.html</guid>
         
         
-        <category>dummy</category>
+        <category>java</category>
+        
+        <category>dbc</category>
+        
+      </item>
+    
+      <item>
+        <title>Hashing Away at Arrays</title>
+        <description>&lt;p&gt;Arrays and hashes, are two important aspects of programming.  But for some reason there’s a fair amount of confusion regarding the distinction between the two, which completely makes sense seeing as they’re both arrays… WHAAAAA?!&lt;/p&gt;
+
+&lt;p&gt;Yes, my incredulous friend, as far as Ruby is concerned hashes are a type of array.  I mean, sure they look different and require slightly different syntaxes to use, but to use a mediocre metaphore, they’re different chapters in the same book.&lt;/p&gt;
+
+&lt;p&gt;That being said, as far as using them is concerened, there are some very important differences between hashes and arrays.  Aside from the syntax differences, hashes and arrays are really quite different.  An array is an ordered list.  It can have numbers, letters, words, really anything in it.  A comma separates each item and each item can be called by its number within the array (though the first item has the 0 place).  Long story made somewhat longer, imaine an array as a normal to-do list or grocery list.&lt;/p&gt;
+
+&lt;p&gt;A hash on the other hand, is a bit more like an inventory. Imagine you’re at a car dealership and they have hatchbacks, trucks, sedans, and convertibles. Great, that’s all great info, but if you wanted to further narrow it down to blue convertibles that get greater than 30 mpg, you would could find exactly that car, if you had input all the information into a hash, and called up your desired attributes.&lt;/p&gt;
+
+&lt;p&gt;So perhaps the best way to think about it is that an array is a simple list, while a hash is a more ordered array.  I hope you can get away with your knowledge of arrays when you next chat about hashes.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Nov 2015 00:43:59 -0800</pubDate>
+        <link>http://bencentra.github.io/RNBrandt/hashes/arrays/dbc/2015/11/15/Hashes.html</link>
+        <guid isPermaLink="true">http://bencentra.github.io/RNBrandt/hashes/arrays/dbc/2015/11/15/Hashes.html</guid>
+        
+        <category>lorem</category>
+        
+        <category>ipsum</category>
+        
+        
+        <category>hashes</category>
+        
+        <category>arrays</category>
+        
+        <category>dbc</category>
+        
+      </item>
+    
+      <item>
+        <title>Marginal Padding</title>
+        <description>&lt;p&gt;So, you’ve fallen down the CSS rabbit hole to my fine blog.  Welcome, it’s busy and confusing down here.  At this point you’ve composed your content, have an idea of how you want the site to look, and begun fiddling around in CSS.  All of a sudden you’re struck with some seemingly identical terms.  Margin, Border, and Padding.   Well don’t worry, I’m here to suss out the differences for you.  And unlike other blogs I’m going to do this without any figures or visual aids.&lt;/p&gt;
+
+&lt;p&gt;I like to imagine that I’m hanging up a framed picture.  The wall upon which I’m hanging the picture is window where the content will be.  That wall may or may not have been painted, it may have other pictures on it, it may even be a wall no one will ever see, but for the sake of this discussion, none of that matters, it’s main function is to be the place where your picture (content goes).&lt;/p&gt;
+
+&lt;p&gt;The margin is arguably the most important positioning element.  Using our analogy, it’s the space between the frame and the edge of the wall, and everything else that’s hung there.  It isn’t part of the picture itself, but knowing how your picture relates to everything else is absolutely crucial to making your wall look the way you want.  In effect your margin ensures that your design element is spaced the way you want it with regards to everything else on the wall (page).&lt;/p&gt;
+
+&lt;p&gt;The border of your design element is your frame.  If you’re looking to add something simple it may be completely invisible (like hanging a poster on a dorm room wall), or it may be ornate (hanging a picture at the Louvre). While the border is important to the overall spacing of the content, most importantly, it represents the separation between the element you’re moving around, and the rest of the page.&lt;/p&gt;
+
+&lt;p&gt;Padding is always within the border and is any amount of space between the actual content and border.  Much like the border, this may not exist in any visual way, but as a design concept it’s always a factor.  If you look at most framed pictures there’s some amount of blank space between the picture and the frame, that’s the padding.&lt;/p&gt;
+
+&lt;p&gt;Margin, border, and padding are all indispensable, and utterly distinct aspects to designing any website. Understanding how they’re different, and relate to one another is the difference between a beautiful and pleasant website, and a 15 year-old’s 2003 MySpace page.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Nov 2015 12:06:59 -0800</pubDate>
+        <link>http://bencentra.github.io/RNBrandt/css/dbc/html/2015/11/09/CSS.html</link>
+        <guid isPermaLink="true">http://bencentra.github.io/RNBrandt/css/dbc/html/2015/11/09/CSS.html</guid>
+        
+        
+        <category>css</category>
+        
+        <category>dbc</category>
+        
+        <category>html</category>
+        
+      </item>
+    
+      <item>
+        <title>Be a Git</title>
+        <description>&lt;p&gt;Vesion cntrol, version cntrol, version control, is crucial to programming.  Put simply, as changes are made to the code they are saved along with a message describing what implementation of the code is meant to accomplish. This provides coders with the tools required to effectively turn on and off any change that has been made to the code.  Maintaining good version control hygiene means as bugs crop up, you can return to the most recent functioning code, locate what’s changed between the functional and non-functional code, and repair it.&lt;/p&gt;
+
+&lt;p&gt;As you are first learning to code, you will largely be working on simple code by yourself.  And while you can see the advantages of version control in that environment, it really becomes crucial once you begin working on large teams on massive projects.&lt;/p&gt;
+
+&lt;p&gt;‘Of course, I already save my changes…’ you may be saying.  Well that’s good, but version control is more akin to a meta-save than the ‘command s’ you’re used to.  The main tool for this job is called Git.  Git is a program that you run from your command line that saves all the changes you made to the project along with a message describing what the change is meant to accomplish.  Additionally it knows exactly where those changes were made, points them out, and fixes all your bugs for you… well not the last bit, but those first two makes the process of fixing the bugs much easier job for you.&lt;/p&gt;
+
+&lt;p&gt;Additionally, Git, works in concert with GitHub.  GitHub is sort of like cloud storage for your code.  Functionally, however, GitHub is a bit more like a giant repository for coders everywhere.  Sure, it’s nice to have your code stored off your computer, at this point we’re all well versed in the benefits of cloud storage, but the real benefit comes from the openness of GitHub.   Coders will often upload their projects to GitHub and make it publically available so fellow coders can access it and incorporate it into their projects (This website for example).  This collaborative environment is a cornerstone of the coding community, and will be immensely useful as you develop your career as a developer.&lt;/p&gt;
+
+&lt;p&gt;So really what I’m saying, is good version control makes you a valued, participant in one of the worlds largest collaborative communities. Pretty neat eh!?&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Oct 2015 13:06:59 -0700</pubDate>
+        <link>http://bencentra.github.io/RNBrandt/github/dbc/2015/10/25/Git.html</link>
+        <guid isPermaLink="true">http://bencentra.github.io/RNBrandt/github/dbc/2015/10/25/Git.html</guid>
+        
+        
+        <category>github</category>
+        
+        <category>dbc</category>
         
       </item>
     
@@ -79,52 +181,6 @@ demo(&quot;hello, world!&quot;, 10);&lt;/code&gt;&lt;/pre&gt;
         
         
         <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post 6</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 01:43:59 -0700</pubDate>
-        <link>http://bencentra.github.io/RNBrandt/dummy/2015/04/18/dummy6.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/RNBrandt/dummy/2015/04/18/dummy6.html</guid>
-        
-        <category>lorem</category>
-        
-        <category>ipsum</category>
-        
-        
-        <category>dummy</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post 5</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 01:43:59 -0700</pubDate>
-        <link>http://bencentra.github.io/RNBrandt/dummy/2015/04/18/dummy5.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/RNBrandt/dummy/2015/04/18/dummy5.html</guid>
-        
-        <category>lorem</category>
-        
-        
-        <category>dummy</category>
         
       </item>
     
