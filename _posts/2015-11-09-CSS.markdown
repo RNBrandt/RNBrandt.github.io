@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Marginal Padding"
-date:   2015-11-09 20:06:59
-author: Reuben Brandt
-categories: CSS DBC HTML
+title:  "Be a Git"
+date:   2015-11-09
 ---
 
-So, you’ve fallen down the CSS rabbit hole to my fine blog.  Welcome, it’s busy and confusing down here.  At this point you’ve composed your content, have an idea of how you want the site to look, and begun fiddling around in CSS.  All of a sudden you’re struck with some seemingly identical terms.  Margin, Border, and Padding.   Well don’t worry, I’m here to suss out the differences for you.  And unlike other blogs I’m going to do this without any figures or visual aids.
+<p class="intro"><span class="dropcap">S</span>o, you’ve fallen down the CSS rabbit hole to my fine blog.  Welcome, it’s busy and confusing down here.  At this point you’ve composed your content, have an idea of how you want the site to look, and begun fiddling around in CSS.  All of a sudden you’re struck with some seemingly identical terms.  Margin, Border, and Padding.   Well don’t worry, I’m here to suss out the differences for you.  And unlike other blogs I’m going to do this without any figures or visual aids.</p>
 
 I like to imagine that I’m hanging up a framed picture.  The wall upon which I’m hanging the picture is window where the content will be.  That wall may or may not have been painted, it may have other pictures on it, it may even be a wall no one will ever see, but for the sake of this discussion, none of that matters, it’s main function is to be the place where your picture (content goes).
 

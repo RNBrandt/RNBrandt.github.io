@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Hashing Away at Arrays"
+date:   2015-11-15
+---
+
+<p class="intro"><span class="dropcap">A</span>rrays and hashes, are two important aspects of programming.  But for some reason there’s a fair amount of confusion regarding the distinction between the two, which completely makes sense seeing as they're both arrays... WHAAAAA?!</p>
+
+Yes, my incredulous friend, as far as Ruby is concerned hashes are a type of array.  I mean, sure they look different and require slightly different syntaxes to use, but to use a mediocre metaphore, they're different chapters in the same book.
+
+That being said, as far as using them is concerened, there are some very important differences between hashes and arrays.  Aside from the syntax differences, hashes and arrays are really quite different.  An array is an ordered list.  It can have numbers, letters, words, really anything in it.  A comma separates each item and each item can be called by its number within the array (though the first item has the 0 place).  Long story made somewhat longer, imaine an array as a normal to-do list or grocery list.
+
+A hash on the other hand, is a bit more like an inventory. Imagine you’re at a car dealership and they have hatchbacks, trucks, sedans, and convertibles. Great, that’s all great info, but if you wanted to further narrow it down to blue convertibles that get greater than 30 mpg, you would could find exactly that car, if you had input all the information into a hash, and called up your desired attributes.
+
+So perhaps the best way to think about it is that an array is a simple list, while a hash is a more ordered array.  I hope you can get away with your knowledge of arrays when you next chat about hashes.

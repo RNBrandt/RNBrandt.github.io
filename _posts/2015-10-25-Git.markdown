@@ -1,12 +1,10 @@
 ---
 layout: post
 title:  "Be a Git"
-date:   2015-10-25 20:06:59
-author: Reuben Brandt
-categories: GitHub DBC
+date:   2015-10-25
 ---
 
-Vesion cntrol, version cntrol, version control, is crucial to programming.  Put simply, as changes are made to the code they are saved along with a message describing what implementation of the code is meant to accomplish. This provides coders with the tools required to effectively turn on and off any change that has been made to the code.  Maintaining good version control hygiene means as bugs crop up, you can return to the most recent functioning code, locate what’s changed between the functional and non-functional code, and repair it.
+<p class="intro"><span class="dropcap">V</span>esion cntrol, version cntrol, version control, is crucial to programming.  Put simply, as changes are made to the code they are saved along with a message describing what implementation of the code is meant to accomplish. This provides coders with the tools required to effectively turn on and off any change that has been made to the code.  Maintaining good version control hygiene means as bugs crop up, you can return to the most recent functioning code, locate what’s changed between the functional and non-functional code, and repair it.</p>
 
 As you are first learning to code, you will largely be working on simple code by yourself.  And while you can see the advantages of version control in that environment, it really becomes crucial once you begin working on large teams on massive projects.
 
