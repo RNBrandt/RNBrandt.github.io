@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CSS CheatSheet"
-date:   2014-12-11
+date:   2015-12-15
 ---
 
 <p class="intro"><span class="dropcap">Q</span>uick and dirty CSS cheatsheet</p>
