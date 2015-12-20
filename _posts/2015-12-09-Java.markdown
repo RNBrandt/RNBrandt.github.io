@@ -5,7 +5,7 @@ date:   2015-12-15
 ---
 
 date:   2015-12-15
-<p class="intro"><span class="dropcap"></span>orem A friend of mine once described the difference between JavaScript and Ruby as the difference between driving a stick-shift car vs an automatic, and nowhere is that more clear than in looping.</p>
+<p class="intro"><span class="dropcap">A</span>friend of mine once described the difference between JavaScript and Ruby as the difference between driving a stick-shift car vs an automatic, and nowhere is that more clear than in looping.</p>
 
 In Ruby, in order to loop you simply have to choose the method through with you want to loop (eg. Each, for, while, etc …), connect it with your object, and that’s really it. So looping though a simple array in Ruby would look something like this:
 
