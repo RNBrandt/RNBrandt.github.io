@@ -5,7 +5,7 @@ date:   2015-12-19
 ---
 
 date:   2015-12-15
-<p class="intro"><span class="dropcap"></span>orem What is Rails? Think of it as an app assembly program.  It’s built using the ruby language (thus Ruby on Rails), and is one of the most efficient ways to build amazing web apps.  Intrigued? Good read on.  Not interested… well then, movalongnothingtoseehere. </p>
+<p class="intro"><span class="dropcap">W</span>hat is Rails? Think of it as an app assembly program.  It’s built using the ruby language (thus Ruby on Rails), and is one of the most efficient ways to build amazing web apps.  Intrigued? Good read on.  Not interested… well then, movalongnothingtoseehere. </p>
 
 In short, rails is a program that’s been built using ruby, which takes html, ruby, and javascript works some neat-o magic and presto-chango you create a web application that a regular, non-programming, person can interact with in their web browser.
 
