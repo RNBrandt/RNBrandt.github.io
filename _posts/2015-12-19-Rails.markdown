@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Reading RailsRoad"
+date:   2015-12-19
+---
+
+date:   2015-12-15
+<p class="intro"><span class="dropcap"></span>orem What is Rails? Think of it as an app assembly program.  It’s built using the ruby language (thus Ruby on Rails), and is one of the most efficient ways to build amazing web apps.  Intrigued? Good read on.  Not interested… well then, movalongnothingtoseehere. </p>
+
+In short, rails is a program that’s been built using ruby, which takes html, ruby, and javascript works some neat-o magic and presto-chango you create a web application that a regular, non-programming, person can interact with in their web browser.
+
+Of course it’s not nearly that simple.  The reason rails works so well is that it requires very specific methods and syntax.  Think of it this way, every single web application has several things in common, html heads, JavaScript interfaces, CSS formatting, the list goes on and on.   Rails knows this so each of these bits (and many more) are built into the framework.  The framework requires you, the developer, to use best practices to create each aspect of the application.
+
+By requiring best practices or conventions be followed, the construction of each application is streamlined, every application  is easily readable by other engineers, and since each part of the app should nearly look like every app you’ve ever built, debugging is a snap.
+
+This simplicity comes at a cost, however.  To use rails well you have to know the exact way to create the functionality you’re looking for.  Additionally, if there’s a weakness in the fundamentals of rails, well then, there are a lot of apps that share that weakness.
+
+Fastidiousness, and potential security concerns aside (to be raised in a later post), if you’re interested in learning the fastest, most efficient, effective, and accepted method to build webapps, you may want to look into learning rails.

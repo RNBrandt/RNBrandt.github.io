@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Be a Git"
+date:   2015-11-09
+---
+
+<p class="intro"><span class="dropcap">L</span>orem So, you’ve fallen down the CSS rabbit hole to my fine blog.  Welcome, it’s busy and confusing down here.  At this point you’ve composed your content, have an idea of how you want the site to look, and begun fiddling around in CSS.  All of a sudden you’re struck with some seemingly identical terms.  Margin, Border, and Padding.   Well don’t worry, I’m here to suss out the differences for you.  And unlike other blogs I’m going to do this without any figures or visual aids.</p>
+
+I like to imagine that I’m hanging up a framed picture.  The wall upon which I’m hanging the picture is window where the content will be.  That wall may or may not have been painted, it may have other pictures on it, it may even be a wall no one will ever see, but for the sake of this discussion, none of that matters, it’s main function is to be the place where your picture (content goes).
+
+The margin is arguably the most important positioning element.  Using our analogy, it’s the space between the frame and the edge of the wall, and everything else that’s hung there.  It isn’t part of the picture itself, but knowing how your picture relates to everything else is absolutely crucial to making your wall look the way you want.  In effect your margin ensures that your design element is spaced the way you want it with regards to everything else on the wall (page).
+
+The border of your design element is your frame.  If you’re looking to add something simple it may be completely invisible (like hanging a poster on a dorm room wall), or it may be ornate (hanging a picture at the Louvre). While the border is important to the overall spacing of the content, most importantly, it represents the separation between the element you’re moving around, and the rest of the page.
+
+Padding is always within the border and is any amount of space between the actual content and border.  Much like the border, this may not exist in any visual way, but as a design concept it’s always a factor.  If you look at most framed pictures there’s some amount of blank space between the picture and the frame, that’s the padding.
+
+Margin, border, and padding are all indispensable, and utterly distinct aspects to designing any website. Understanding how they’re different, and relate to one another is the difference between a beautiful and pleasant website, and a 15 year-old’s 2003 MySpace page.
